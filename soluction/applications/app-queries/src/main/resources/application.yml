@@ -1,0 +1,23 @@
+server:
+  port: 8081
+  origin: ${ORIGIN:*}
+spring:
+  main:
+    banner-mode: off
+  output:
+    ansi:
+      enabled: ALWAYS
+  application:
+    name: game-queries
+  rabbitmq:
+    addresses: ${RABBITMQ_URI:amqp://guest:guest@localhost:5672}  
+  data:
+    mongodb:
+        uri: ${MONGO_URI:mongodb://localhost:27017/game-view}
+  sleuth:
+    sampler:
+      percentage: 1.0
+microservice:
+  exchange: ${EXCHANGE:core-game}
+  queue: ${QUEUE:game.queryhandles}
+  routingKey: ${ROUTING_KEY:cardgame.#}

@@ -1,0 +1,49 @@
+<div class="displayTable">
+  <div class="row">
+    <div>
+      <div class="tope">
+        <strong class="right label timer">
+          Tiempo {{ tiempo }}s
+        </strong>
+        <div class="h2">
+          <button mat-button (click)="iniciarRonda()" disabled="{{ roundStarted }}">
+            INICIAR
+          </button>
+          <strong class="label">RONDA # {{ numeroRonda }} Jugadores [{{ jugadoresRonda }}/{{jugadoresTablero}}]</strong>
+        </div>
+      </div>
+      <div class="inner-adjust">
+        <mat-grid-list cols="6" rowHeight="1:2">
+          <mat-grid-tile *ngFor="let card of cartasDelTablero; index as k">
+            <mat-card class="m-2">
+              <mat-card-title-group>
+                <img mat-card-image *ngIf="card.jugadorId !== uid" src="/assets/blackcard.jpg" />
+                <img mat-card-image *ngIf="card.jugadorId === uid" src="/assets/{{ card.cartaId }}.jpg" />
+              </mat-card-title-group>
+              <mat-card-content>
+
+              </mat-card-content>
+            </mat-card>
+          </mat-grid-tile>
+        </mat-grid-list>
+      </div>
+    </div>
+    <mat-grid-list cols="6" rowHeight="2:4">
+      <mat-grid-tile *ngFor="let card of cartasDelJugador">
+        <mat-card *ngIf="!card.estaOculta">
+          <mat-card-title-group>
+            <img mat-card-image src="/assets/{{ card.cartaId }}.jpg" />
+          </mat-card-title-group>
+          <mat-card-content> Poder {{ card.poder }} </mat-card-content>
+
+          <mat-card-actions>
+            <button mat-button disabled="{{!tableroHabilitado}}" (click)="poner(card.cartaId)">
+              MOVER A TABLERO
+            </button>
+          </mat-card-actions>
+        </mat-card>
+      </mat-grid-tile>
+    </mat-grid-list>
+
+  </div>
+</div>

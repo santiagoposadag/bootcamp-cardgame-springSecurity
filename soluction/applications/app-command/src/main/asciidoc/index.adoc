@@ -1,0 +1,23 @@
+= Game Core Rest Command
+Raul A. Alzate <raul.alzate@sofka.com.co>;
+:doctype: book
+:icons: font
+:source-highlighter: highlightjs
+:toc: left
+:sectnums:
+
+== Intro
+
+Comando para juego de cartas
+
+[TIP]
+If possible, create the aggregateId from the consumer rest (client), since it would be easily accessible for queries through that id.
+Use UUID that guarantees a unique identity.
+
+== Crear Juego
+
+operation::crearjuegocommand[snippets='request-fields,http-request']
+
+=== Domain Event
+
+include::{snippets}/crearjuegocommand/response-body.adoc[]

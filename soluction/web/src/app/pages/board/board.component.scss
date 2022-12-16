@@ -1,0 +1,77 @@
+.mat-button {
+    margin-bottom: 5px;
+}
+
+.mat-button:disabled {
+    background-color: gainsboro;
+    border: 1px solid white;
+    color: grey;
+    text-decoration: line-through;
+}
+
+.mat-button:enabled {
+    background-color: darkviolet;
+    border: 1px solid white;
+    color: white;
+}
+
+.mat-card-actions {
+    background-color: transparent;
+    margin: auto;
+    padding-bottom: 10px;
+    position: relative;
+    top: -5px;
+}
+
+.mat-card-content {
+    background-color: green;
+    color: white;
+    text-align: center;
+}
+
+.mat-card-title-group {
+    background-color: greenyellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden
+}
+
+.mat-card-title-group img {
+    width: 100%;
+    height: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center
+}
+
+.mat-card {
+    background-color: darkred;
+    border: 2px solid black;
+    padding: 5px;
+    margin: 5px;
+}
+
+.mat-grid-tile {
+    background-color: burlywood;
+    text-align: center;
+
+}
+
+.mat-grid-list {
+    margin-top: 5px;
+    background-color: burlywood;
+    border: 10px solid black;
+}
+
+.tope {
+    background-color: white;
+    border: 10px solid black;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+
+.timer {
+    padding: 10px
+}
+

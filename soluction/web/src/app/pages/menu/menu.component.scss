@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Rambla:ital,wght@1,700&display=swap');
+
+.contenido {
+  margin:auto;
+  max-width: 800px;
+  padding: 30px 40px 10px;
+  text-align: center;
+}
+
+h1{
+  font-family: 'Rambla', sans-serif;
+    letter-spacing: 3px;
+    font-size: 60px;
+    border: 10px solid black;
+    border-radius: 10px;
+    background-color: red;
+    color: white;
+}
+
+img{
+  border: 10px solid black;
+    width: 600px;
+    height: 800px;
+    border-radius: 15px;
+}

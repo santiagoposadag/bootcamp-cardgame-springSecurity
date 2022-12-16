@@ -1,0 +1,38 @@
+<div class="displayTable">
+  <div class="displayTableCell">
+    <div class="lista">
+      <h1>Lista de juegos</h1>
+      <table class="gamelist">
+        <tr>
+          <th>#</th>
+          <th>Jugadores</th> <!--[ngSwitch]="auth.isLoggedIn"><span *ngSwitchCase="true">Inicio</span></a>-->
+          <th></th>
+        </tr>
+
+        <tr align="center" *ngFor="let juego of juegos; index as i" [ngSwitch]="juego.finalizado">
+          <td>
+             {{ i + 1 }}
+          </td>
+
+          <td>
+            <span class="cant"  *ngFor="let recipient of juego.jugadores | keyvalue">
+             {{showName(recipient.value)}}
+            </span>
+          </td>
+
+          <td *ngSwitchCase="false" [ngSwitch]="juego.iniciado" >
+            <button *ngSwitchCase="false" value="{{ juego.id }}" (click)="startGame(juego.id)">
+              Iniciar
+            </button>
+            <button class="join" *ngSwitchCase="true" value="{{ juego.id }}" (click)="joinGame(juego.id)">
+              Unirse
+            </button>
+          </td>
+          <td *ngSwitchCase="true">
+              <span class="fin">Juego Finalizado</span>
+          </td>
+        </tr>
+      </table>
+    </div>
+  </div>
+</div>

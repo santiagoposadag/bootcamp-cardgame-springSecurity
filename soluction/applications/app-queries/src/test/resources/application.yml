@@ -1,0 +1,17 @@
+server:
+  port: 8081
+  origin: ${ORIGIN:*}
+spring:
+  sleuth: # All sleuth features disabled for integration tests
+    enabled: false
+    reactor:
+      enabled: false
+    web:
+      enabled: false
+    async:
+      enabled: false
+      client:
+        template:
+          enabled: false
+  zipkin: # All zipkin features disabled for integration tests
+    enabled: false

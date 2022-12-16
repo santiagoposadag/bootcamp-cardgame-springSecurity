@@ -1,0 +1,39 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: {{ .Release.Name }}-command
+  labels:
+    {{- include "cardgame-core.labels" . | nindent 4 }}
+spec:
+  replicas: {{ .Values.replicaCount }}
+  selector:
+    matchLabels:
+      app.kubernetes.io/name: {{ include "cardgame-core.name" . }}-command
+      app.kubernetes.io/instance: {{ .Release.Name }}-command
+  template:
+    metadata:
+      labels:
+        app.kubernetes.io/name: {{ include "cardgame-core.name" . }}-command
+        app.kubernetes.io/instance: {{ .Release.Name }}-command
+    spec:
+      containers:
+        - name: command
+          image: "{{ .Values.command.repository }}:{{ .Chart.AppVersion }}"
+          imagePullPolicy: {{ .Values.command.pullPolicy }}
+          ports:
+            - containerPort: 8080
+          readinessProbe:
+            httpGet:
+              port: 8080
+              path: /commands/
+          env:
+            - name: "MONGO_URI"
+              valueFrom:
+                secretKeyRef:
+                  key:  mongo_uri
+                  name: {{ .Release.Name }}-uri
+            - name: "RABBITMQ_URI"
+              valueFrom:
+                secretKeyRef:
+                  key:  rabbitmq_uri
+                  name: {{ .Release.Name }}-uri

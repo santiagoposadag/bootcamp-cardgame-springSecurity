@@ -1,0 +1,14 @@
+apiVersion: v2
+name: cardgame-core
+description: A Helm chart for Kubernetes
+type: application
+version: 0.1.0
+appVersion: latest
+
+dependencies:
+  - name: rabbitmq
+    version: 11.0.0
+    repository: https://charts.bitnami.com/bitnami/
+  - name: mongodb
+    version: 13.1.7
+    repository: https://charts.bitnami.com/bitnami/

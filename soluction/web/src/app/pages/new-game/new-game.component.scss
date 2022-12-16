@@ -1,0 +1,51 @@
+.crear{
+    max-width: 500px;
+    background-color: rgb(228, 228, 228);
+    border: 2px solid black;
+    box-shadow: 0px 10px 30px 5px rgba(0,0,0,.15);
+    border-radius: 5px;
+    margin: 25px auto;
+    display: grid;
+  }
+
+  .mainContainer {
+    margin: 0 auto;
+    max-width: 800px;
+    background: white;
+    padding: 30px 40px 10px;
+    border: 10px solid black;
+    border-radius: 10px;
+  }
+  
+.selector{
+  margin: 6px;
+    font-style: italic;
+    font-weight: bold;
+    float: inline-start;
+    clear: both;
+}
+
+input:hover{
+    cursor: pointer;
+}
+
+button{
+  background-color: #2671fc;
+    border: solid 1px #2671fc;
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+    margin: 4px 2px 6px;
+    border-radius: 8px;
+}
+
+button:hover{
+  background-color: white;
+    border: solid 1px #2671fc;
+    color: #2671fc;
+    padding: 10px;
+    font-size: 16px;
+    margin: 4px 2px 6px;
+    border-radius: 8px;
+    cursor: pointer;
+}

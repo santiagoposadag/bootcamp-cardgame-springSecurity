@@ -1,0 +1,68 @@
+@startuml
+
+left to right direction
+title Microservicio: Juego
+caption Comandos y Eventos
+
+frame commands {
+
+     object AsignarJugadorCommand<<command>> {
+       - String juegoId;
+       - String jugadorId
+       - String alias
+     }
+
+     object CrearJuegoCommand<<command>> {
+        - String juegoId
+        - String jugadorPrincipalId
+        - Integer montoRequerido
+     }
+     object CrearRondaCommand<<command>> {
+        - String juegoId
+        - Integer tiempo
+        - Set<String> jugadores
+     }
+     object FinalizarRondaCommand<<command>> {
+         - String juegoId
+     }
+     object IniciarJuegoCommand<<command>> {
+        - String juegoId
+     }
+     object IniciarRondaCommand<<command>> {
+       - String juegoId
+     }
+     object PonerCartaEnTablero<<domain event>> {
+         - String jugadorId
+         - String cartaId
+         - String juegoId
+     }
+  }
+
+frame events {
+
+    object CartaPuestaEnTablero<<domain event>>{
+    }
+    object CartaQuitadaDelMazo<<domain event>>{
+    }
+    object CartaQuitadaDelTablero<<domain event>>{
+    }
+    object CartasAsignadasAJugador<<domain event>>{
+    }
+    object JuegoCreado<<domain event>>{
+    }
+    object JuegoFinalizado<<domain event>>{
+    }
+    object JugadorAgregado<<domain event>>{
+    }
+    object RondaCreada<<domain event>>{
+    }
+    object RondaIniciada<<domain event>>{
+    }
+    object RondaTerminada<<domain event>>{
+    }
+    object TableroCreado<<domain event>>{
+    }
+    object TiempoCambiadoDelTablero<<domain event>>{
+    }
+ }
+@enduml

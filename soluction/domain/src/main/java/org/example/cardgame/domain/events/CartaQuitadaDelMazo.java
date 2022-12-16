@@ -1,0 +1,24 @@
+package org.example.cardgame.domain.events;
+
+import org.example.cardgame.generic.DomainEvent;
+import org.example.cardgame.domain.values.Carta;
+import org.example.cardgame.domain.values.JugadorId;
+
+public class CartaQuitadaDelMazo extends DomainEvent {
+    private final JugadorId jugadorId;
+    private final Carta carta;
+
+    public CartaQuitadaDelMazo(JugadorId jugadorId, Carta carta) {
+        super("cardgame.cartaquitadadelmazo");
+        this.jugadorId = jugadorId;
+        this.carta = carta;
+    }
+
+    public JugadorId getJugadorId() {
+        return jugadorId;
+    }
+
+    public Carta getCarta() {
+        return carta;
+    }
+}

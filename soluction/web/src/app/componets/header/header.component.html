@@ -1,0 +1,16 @@
+<header>
+    <a routerLink="/menu" class="logo">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/b/b9/Marvel_Logo.svg" alt="game logo">
+        <h2 class="game-name" [ngSwitch]="auth.isLoggedIn">Card Game <br> <span class="uname" *ngSwitchCase="true">
+                {{this.auth.user.displayName}} </span></h2>
+    </a>
+    <nav>
+
+        <a routerLink="/home" class="nav-link" [ngSwitch]="auth.isLoggedIn"><span *ngSwitchCase="true">Inicio</span></a>
+        <a routerLink="/list" class="nav-link" [ngSwitch]="auth.isLoggedIn"><span *ngSwitchCase="true">Lista de
+                juegos</span></a>
+        <a class="nav-link" [ngSwitch]="auth.isLoggedIn"> <span *ngSwitchCase="true" (click)="logOut()">Logout</span>
+            <span routerLink="/login" *ngSwitchCase="false">Login</span> </a>
+
+    </nav>
+</header>

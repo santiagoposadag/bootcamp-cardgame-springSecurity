@@ -1,0 +1,102 @@
+@startuml
+
+title Microservicio: Juego
+caption Modelo de Dominio
+namespace juego {
+
+  entity Juego<<aggregate root>> {
+    - Map<JugadorId, Jugador> jugadores
+    - Tablero tablero
+    - Jugador ganador
+    - Ronda ronda
+    - JugadorId jugadorPrincipal
+    - MontoRequerido montoRequerido
+    --
+    + crearTablero()
+    + crearRonda(Ronda, TiempoLimite)
+    + cambiarTiempoDelTablero(TableroId, TiempoLimite)
+    + ponerCartaEnTablero(TableroId, JugadorId, Carta carta)
+    + quitarCartaEnTablero(TableroId, JugadorId, Carta)
+    + asignarJugador(JugadorId, Alias, Mazo)
+    + iniciarRonda()
+    + asignarCartasAGanador(JugadorId, Integer, Set<Carta>)
+    + terminarRonda(TableroId, Set<JugadorId>)
+    + finalizarJuego(JugadorId, Alias)
+
+  }
+
+  entity Tablero<<entity>> {
+    - final Map<JugadorId, Set<Carta>> partida
+    - TiempoLimite tiempoLimite
+    - Boolean estaHabilitado
+    --
+    + ajustarTiempo(TiempoLimite)
+    + adicionarPartida(JugadorId , Carta )
+    + quitarCarta(JugadorId , Carta )
+    + reiniciarPartida()
+    +  habilitarApuesta()
+    + inhabilitarApuesta()
+  }
+
+  entity Jugador<<entity>> {
+    - final Alias alias
+    - Mazo mazo
+    --
+    + agregarCartaAMazo(Carta)
+    + quitarCartaDeMazo(Carta)
+  }
+
+}
+
+
+namespace juego.values {
+
+  object Ronda<<value object>> {
+     - Set<JugadorId> jugadores
+     - Integer numero
+     - Boolean estaIniciada
+  }
+
+  object Mazo<<value object>> {
+    - Set<Carta> catas
+    - Integer cantidad
+  }
+
+  object Carta<<value object>> {
+    - CartaMaestraId cartaId
+    - Boolean estaOculta
+    - Boolean estaHabilitada
+    - Integer poder
+  }
+
+  object MontoRequerido<<value object>> {
+
+  }
+
+  object TiempoLimite<<value object>> {
+
+  }
+
+  object Alias<<value object>> {
+
+  }
+
+}
+
+
+
+/'
+Relaciones
+'/
+Juego -|| MontoRequerido
+Juego -|| Tablero
+Tablero -|| TiempoLimite
+
+Juego -|{ Jugador
+Juego -|| Ronda
+Tablero -|{ Carta
+Jugador -|| Mazo
+Jugador -|| Alias
+Mazo -|{ Carta
+
+@enduml

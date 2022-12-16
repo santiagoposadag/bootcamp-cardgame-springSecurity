@@ -1,0 +1,20 @@
+server:
+  port: 8082
+  origin: ${ORIGIN:*}
+spring:
+  main:
+    banner-mode: off
+  output:
+    ansi:
+      enabled: ALWAYS
+  application:
+    name: game-proxy
+  rabbitmq:
+    addresses: ${RABBITMQ_URI:amqp://guest:guest@localhost:5672}
+  sleuth:
+    sampler:
+      percentage: 1.0
+microservice:
+  exchange: ${EXCHANGE:core-game}
+  queue: ${QUEUE:game.proxyhandles}
+  routingKey: ${ROUTING_KEY:cardgame.#}

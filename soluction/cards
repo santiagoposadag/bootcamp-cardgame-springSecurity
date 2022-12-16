@@ -1,0 +1,541 @@
+[{
+  "_id": "044",
+  "nombre": "Carta 1",
+  "uri": "https://carta.com/1",
+  "poder": "1"
+},{
+  "_id": "063",
+  "nombre": "Carta 2",
+  "uri": "https://carta.com/2",
+  "poder": "2"
+},{
+  "_id": "0BF",
+  "nombre": "Carta 3",
+  "uri": "https://carta.com/3",
+  "poder": "3"
+},{
+  "_id": "0E0",
+  "nombre": "Carta 4",
+  "uri": "https://carta.com/4",
+  "poder": "4"
+},{
+  "_id": "138",
+  "nombre": "Carta 5",
+  "uri": "https://carta.com/5",
+  "poder": "5"
+},{
+  "_id": "168",
+  "nombre": "Carta 6",
+  "uri": "https://carta.com/6",
+  "poder": "6"
+},{
+  "_id": "175",
+  "nombre": "Carta 7",
+  "uri": "https://carta.com/7",
+  "poder": "7"
+},{
+  "_id": "1AE",
+  "nombre": "Carta 8",
+  "uri": "https://carta.com/8",
+  "poder": "8"
+},{
+  "_id": "1DF",
+  "nombre": "Carta 9",
+  "uri": "https://carta.com/9",
+  "poder": "9"
+},{
+  "_id": "1F4",
+  "nombre": "Carta 10",
+  "uri": "https://carta.com/10",
+  "poder": "10"
+},{
+  "_id": "1F5",
+  "nombre": "Carta 11",
+  "uri": "https://carta.com/11",
+  "poder": "11"
+},{
+  "_id": "1F9",
+  "nombre": "Carta 12",
+  "uri": "https://carta.com/12",
+  "poder": "12"
+},{
+  "_id": "201",
+  "nombre": "Carta 13",
+  "uri": "https://carta.com/13",
+  "poder": "13"
+},{
+  "_id": "226",
+  "nombre": "Carta 14",
+  "uri": "https://carta.com/14",
+  "poder": "14"
+},{
+  "_id": "236",
+  "nombre": "Carta 15",
+  "uri": "https://carta.com/15",
+  "poder": "15"
+},{
+  "_id": "25B",
+  "nombre": "Carta 16",
+  "uri": "https://carta.com/16",
+  "poder": "16"
+},{
+  "_id": "272",
+  "nombre": "Carta 17",
+  "uri": "https://carta.com/17",
+  "poder": "17"
+},{
+  "_id": "287",
+  "nombre": "Carta 18",
+  "uri": "https://carta.com/18",
+  "poder": "18"
+},{
+  "_id": "292",
+  "nombre": "Carta 19",
+  "uri": "https://carta.com/19",
+  "poder": "19"
+},{
+  "_id": "2E2",
+  "nombre": "Carta 20",
+  "uri": "https://carta.com/20",
+  "poder": "20"
+},{
+  "_id": "303",
+  "nombre": "Carta 21",
+  "uri": "https://carta.com/21",
+  "poder": "21"
+},{
+  "_id": "334",
+  "nombre": "Carta 22",
+  "uri": "https://carta.com/22",
+  "poder": "22"
+},{
+  "_id": "338",
+  "nombre": "Carta 23",
+  "uri": "https://carta.com/23",
+  "poder": "23"
+},{
+  "_id": "33C",
+  "nombre": "Carta 24",
+  "uri": "https://carta.com/24",
+  "poder": "24"
+},{
+  "_id": "34F",
+  "nombre": "Carta 25",
+  "uri": "https://carta.com/25",
+  "poder": "25"
+},{
+  "_id": "367",
+  "nombre": "Carta 26",
+  "uri": "https://carta.com/26",
+  "poder": "26"
+},{
+  "_id": "372",
+  "nombre": "Carta 27",
+  "uri": "https://carta.com/27",
+  "poder": "27"
+},{
+  "_id": "384",
+  "nombre": "Carta 28",
+  "uri": "https://carta.com/28",
+  "poder": "28"
+},{
+  "_id": "386",
+  "nombre": "Carta 29",
+  "uri": "https://carta.com/29",
+  "poder": "29"
+},{
+  "_id": "4B7",
+  "nombre": "Carta 30",
+  "uri": "https://carta.com/30",
+  "poder": "30"
+},{
+  "_id": "4C1",
+  "nombre": "Carta 31",
+  "uri": "https://carta.com/31",
+  "poder": "31"
+},{
+  "_id": "4C8",
+  "nombre": "Carta 32",
+  "uri": "https://carta.com/32",
+  "poder": "32"
+},{
+  "_id": "4E5",
+  "nombre": "Carta 33",
+  "uri": "https://carta.com/33",
+  "poder": "33"
+},{
+  "_id": "557",
+  "nombre": "Carta 34",
+  "uri": "https://carta.com/34",
+  "poder": "34"
+},{
+  "_id": "5A6",
+  "nombre": "Carta 35",
+  "uri": "https://carta.com/35",
+  "poder": "35"
+},{
+  "_id": "5B9",
+  "nombre": "Carta 36",
+  "uri": "https://carta.com/36",
+  "poder": "36"
+},{
+  "_id": "5DE",
+  "nombre": "Carta 37",
+  "uri": "https://carta.com/37",
+  "poder": "37"
+},{
+  "_id": "5EA",
+  "nombre": "Carta 38",
+  "uri": "https://carta.com/38",
+  "poder": "38"
+},{
+  "_id": "625",
+  "nombre": "Carta 39",
+  "uri": "https://carta.com/39",
+  "poder": "39"
+},{
+  "_id": "675",
+  "nombre": "Carta 40",
+  "uri": "https://carta.com/40",
+  "poder": "40"
+},{
+  "_id": "68C",
+  "nombre": "Carta 41",
+  "uri": "https://carta.com/41",
+  "poder": "41"
+},{
+  "_id": "6AC",
+  "nombre": "Carta 42",
+  "uri": "https://carta.com/42",
+  "poder": "42"
+},{
+  "_id": "6B6",
+  "nombre": "Carta 43",
+  "uri": "https://carta.com/43",
+  "poder": "43"
+},{
+  "_id": "740",
+  "nombre": "Carta 44",
+  "uri": "https://carta.com/44",
+  "poder": "44"
+},{
+  "_id": "74D",
+  "nombre": "Carta 45",
+  "uri": "https://carta.com/45",
+  "poder": "45"
+},{
+  "_id": "763",
+  "nombre": "Carta 46",
+  "uri": "https://carta.com/46",
+  "poder": "46"
+},{
+  "_id": "780",
+  "nombre": "Carta 47",
+  "uri": "https://carta.com/47",
+  "poder": "47"
+},{
+  "_id": "780_",
+  "nombre": "Carta 48",
+  "uri": "https://carta.com/48",
+  "poder": "48"
+},{
+  "_id": "783",
+  "nombre": "Carta 49",
+  "uri": "https://carta.com/49",
+  "poder": "49"
+},{
+  "_id": "7B8",
+  "nombre": "Carta 50",
+  "uri": "https://carta.com/50",
+  "poder": "50"
+},{
+  "_id": "7BA",
+  "nombre": "Carta 51",
+  "uri": "https://carta.com/51",
+  "poder": "51"
+},{
+  "_id": "7C6",
+  "nombre": "Carta 52",
+  "uri": "https://carta.com/52",
+  "poder": "52"
+},{
+  "_id": "7D1",
+  "nombre": "Carta 53",
+  "uri": "https://carta.com/53",
+  "poder": "53"
+},{
+  "_id": "7DB",
+  "nombre": "Carta 54",
+  "uri": "https://carta.com/54",
+  "poder": "54"
+},{
+  "_id": "7EB",
+  "nombre": "Carta 55",
+  "uri": "https://carta.com/55",
+  "poder": "55"
+},{
+  "_id": "807",
+  "nombre": "Carta 56",
+  "uri": "https://carta.com/56",
+  "poder": "56"
+},{
+  "_id": "81F",
+  "nombre": "Carta 57",
+  "uri": "https://carta.com/57",
+  "poder": "57"
+},{
+  "_id": "85F",
+  "nombre": "Carta 58",
+  "uri": "https://carta.com/58",
+  "poder": "58"
+},{
+  "_id": "86A",
+  "nombre": "Carta 59",
+  "uri": "https://carta.com/59",
+  "poder": "59"
+},{
+  "_id": "8A9",
+  "nombre": "Carta 60",
+  "uri": "https://carta.com/60",
+  "poder": "60"
+},{
+  "_id": "8AE",
+  "nombre": "Carta 61",
+  "uri": "https://carta.com/61",
+  "poder": "61"
+},{
+  "_id": "946",
+  "nombre": "Carta 62",
+  "uri": "https://carta.com/62",
+  "poder": "62"
+},{
+  "_id": "95C",
+  "nombre": "Carta 63",
+  "uri": "https://carta.com/63",
+  "poder": "63"
+},{
+  "_id": "970",
+  "nombre": "Carta 64",
+  "uri": "https://carta.com/64",
+  "poder": "64"
+},{
+  "_id": "982",
+  "nombre": "Carta 65",
+  "uri": "https://carta.com/65",
+  "poder": "65"
+},{
+  "_id": "99A",
+  "nombre": "Carta 66",
+  "uri": "https://carta.com/66",
+  "poder": "66"
+},{
+  "_id": "9A6",
+  "nombre": "Carta 67",
+  "uri": "https://carta.com/67",
+  "poder": "67"
+},{
+  "_id": "9D8",
+  "nombre": "Carta 68",
+  "uri": "https://carta.com/68",
+  "poder": "68"
+},{
+  "_id": "9E2",
+  "nombre": "Carta 69",
+  "uri": "https://carta.com/69",
+  "poder": "69"
+},{
+  "_id": "9F3",
+  "nombre": "Carta 70",
+  "uri": "https://carta.com/70",
+  "poder": "70"
+},{
+  "_id": "A25",
+  "nombre": "Carta 71",
+  "uri": "https://carta.com/71",
+  "poder": "71"
+},{
+  "_id": "A3D",
+  "nombre": "Carta 72",
+  "uri": "https://carta.com/72",
+  "poder": "72"
+},{
+  "_id": "AA5",
+  "nombre": "Carta 73",
+  "uri": "https://carta.com/73",
+  "poder": "73"
+},{
+  "_id": "AF9",
+  "nombre": "Carta 74",
+  "uri": "https://carta.com/74",
+  "poder": "74"
+},{
+  "_id": "B29",
+  "nombre": "Carta 75",
+  "uri": "https://carta.com/75",
+  "poder": "75"
+},{
+  "_id": "B4E",
+  "nombre": "Carta 76",
+  "uri": "https://carta.com/76",
+  "poder": "76"
+},{
+  "_id": "BA0",
+  "nombre": "Carta 77",
+  "uri": "https://carta.com/77",
+  "poder": "77"
+},{
+  "_id": "BA3",
+  "nombre": "Carta 78",
+  "uri": "https://carta.com/78",
+  "poder": "78"
+},{
+  "_id": "BB1",
+  "nombre": "Carta 79",
+  "uri": "https://carta.com/79",
+  "poder": "79"
+},{
+  "_id": "BDF",
+  "nombre": "Carta 80",
+  "uri": "https://carta.com/80",
+  "poder": "80"
+},{
+  "_id": "C16",
+  "nombre": "Carta 81",
+  "uri": "https://carta.com/81",
+  "poder": "81"
+},{
+  "_id": "C1A",
+  "nombre": "Carta 82",
+  "uri": "https://carta.com/82",
+  "poder": "82"
+},{
+  "_id": "C56",
+  "nombre": "Carta 83",
+  "uri": "https://carta.com/83",
+  "poder": "83"
+},{
+  "_id": "C68",
+  "nombre": "Carta 84",
+  "uri": "https://carta.com/84",
+  "poder": "84"
+},{
+  "_id": "C81",
+  "nombre": "Carta 85",
+  "uri": "https://carta.com/85",
+  "poder": "85"
+},{
+  "_id": "C82",
+  "nombre": "Carta 86",
+  "uri": "https://carta.com/86",
+  "poder": "86"
+},{
+  "_id": "CAC_",
+  "nombre": "Carta 87",
+  "uri": "https://carta.com/87",
+  "poder": "87"
+},{
+  "_id": "CC1",
+  "nombre": "Carta 88",
+  "uri": "https://carta.com/88",
+  "poder": "88"
+},{
+  "_id": "CD5",
+  "nombre": "Carta 89",
+  "uri": "https://carta.com/89",
+  "poder": "89"
+},{
+  "_id": "CE4",
+  "nombre": "Carta 90",
+  "uri": "https://carta.com/90",
+  "poder": "90"
+},{
+  "_id": "CF3",
+  "nombre": "Carta 91",
+  "uri": "https://carta.com/91",
+  "poder": "91"
+},{
+  "_id": "D76",
+  "nombre": "Carta 92",
+  "uri": "https://carta.com/92",
+  "poder": "92"
+},{
+  "_id": "D8B",
+  "nombre": "Carta 93",
+  "uri": "https://carta.com/93",
+  "poder": "93"
+},{
+  "_id": "DD9",
+  "nombre": "Carta 94",
+  "uri": "https://carta.com/94",
+  "poder": "94"
+},{
+  "_id": "E3A",
+  "nombre": "Carta 95",
+  "uri": "https://carta.com/95",
+  "poder": "95"
+},{
+  "_id": "E44",
+  "nombre": "Carta 96",
+  "uri": "https://carta.com/96",
+  "poder": "96"
+},{
+  "_id": "E55",
+  "nombre": "Carta 97",
+  "uri": "https://carta.com/97",
+  "poder": "97"
+},{
+  "_id": "E5E",
+  "nombre": "Carta 98",
+  "uri": "https://carta.com/98",
+  "poder": "98"
+},{
+  "_id": "E60",
+  "nombre": "Carta 99",
+  "uri": "https://carta.com/99",
+  "poder": "99"
+},{
+  "_id": "E6F",
+  "nombre": "Carta 100",
+  "uri": "https://carta.com/100",
+  "poder": "100"
+},{
+  "_id": "E9C",
+  "nombre": "Carta 101",
+  "uri": "https://carta.com/101",
+  "poder": "101"
+},{
+  "_id": "EAF",
+  "nombre": "Carta 102",
+  "uri": "https://carta.com/102",
+  "poder": "102"
+},{
+  "_id": "EC2",
+  "nombre": "Carta 103",
+  "uri": "https://carta.com/103",
+  "poder": "103"
+},{
+  "_id": "EFB",
+  "nombre": "Carta 104",
+  "uri": "https://carta.com/104",
+  "poder": "104"
+},{
+  "_id": "F14",
+  "nombre": "Carta 105",
+  "uri": "https://carta.com/105",
+  "poder": "105"
+},{
+  "_id": "F52",
+  "nombre": "Carta 106",
+  "uri": "https://carta.com/106",
+  "poder": "106"
+},{
+  "_id": "F7E",
+  "nombre": "Carta 107",
+  "uri": "https://carta.com/107",
+  "poder": "107"
+},{
+  "_id": "F89",
+  "nombre": "Carta 108",
+  "uri": "https://carta.com/108",
+  "poder": "108"
+}]

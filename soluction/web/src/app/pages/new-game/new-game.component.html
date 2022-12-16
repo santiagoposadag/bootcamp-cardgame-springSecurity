@@ -1,0 +1,18 @@
+<div class="displayTable">
+  <div class="displayTableCell">
+    <div class="mainContainer">
+      <div class="crear">
+        <h3>Crear Juego</h3>
+        <div class="selector" *ngFor="let jugador of jugadores">
+          <input
+            type="checkbox"
+            name="{{ jugador.uid }}"
+            [value]="jugador.uid"
+            (change)="getJugador($event, jugador)"
+          />{{ jugador.alias }}
+        </div>
+        <button type="submit" (click)="onSubmit()">Crear Juego</button>
+      </div>
+    </div>
+  </div>
+</div>

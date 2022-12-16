@@ -1,0 +1,53 @@
+[debug] [2022-09-05T01:58:09.687Z] ----------------------------------------------------------------------
+[debug] [2022-09-05T01:58:09.689Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\giann\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2022-09-05T01:58:09.690Z] CLI Version:   11.8.0
+[debug] [2022-09-05T01:58:09.690Z] Platform:      win32
+[debug] [2022-09-05T01:58:09.690Z] Node Version:  v16.16.0
+[debug] [2022-09-05T01:58:09.691Z] Time:          Sun Sep 04 2022 22:58:09 GMT-0300 (hora estándar de Uruguay)
+[debug] [2022-09-05T01:58:09.691Z] ----------------------------------------------------------------------
+[debug]
+[debug] [2022-09-05T01:58:09.695Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[debug] [2022-09-05T01:58:09.787Z] > command requires scopes: ["alias","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-09-05T01:58:09.788Z] > authorizing via signed-in user (giannibaccino@gmail.com)
+[info]
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\giann\Desktop\GIANNI\SofkaU\Aplicaciones Empresariales\cardgame-demo\web
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[debug] [2022-09-05T01:58:10.293Z] <<< [apiv2][status] GET https://firebase-public.firebaseio.com/cli.json 200
+[debug] [2022-09-05T01:58:10.293Z] <<< [apiv2][body] GET https://firebase-public.firebaseio.com/cli.json {"cloudBuildErrorAfter":1594252800000,"cloudBuildWarnAfter":1590019200000,"defaultNode10After":1594252800000,"minVersion":"3.0.5","node8DeploysDisabledAfter":1613390400000,"node8RuntimeDisabledAfter":1615809600000,"node8WarnAfter":1600128000000}
+[debug] [2022-09-05T01:59:17.503Z] ----------------------------------------------------------------------
+[debug] [2022-09-05T01:59:17.505Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\giann\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2022-09-05T01:59:17.506Z] CLI Version:   11.8.0
+[debug] [2022-09-05T01:59:17.506Z] Platform:      win32
+[debug] [2022-09-05T01:59:17.506Z] Node Version:  v16.16.0
+[debug] [2022-09-05T01:59:17.507Z] Time:          Sun Sep 04 2022 22:59:17 GMT-0300 (hora estándar de Uruguay)
+[debug] [2022-09-05T01:59:17.508Z] ----------------------------------------------------------------------
+[debug]
+[debug] [2022-09-05T01:59:17.583Z] > command requires scopes: ["alias","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-09-05T01:59:17.583Z] > authorizing via signed-in user (giannibaccino@gmail.com)
+[info]
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\giann\Desktop\GIANNI\SofkaU\Aplicaciones Empresariales\cardgame-demo\web
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+

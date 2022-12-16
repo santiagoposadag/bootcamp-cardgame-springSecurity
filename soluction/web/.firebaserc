@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "card-game-sofka": {
+      "hosting": {
+        "web": [
+          "card-game-sofka"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "cardgame-a9bac"
+  }
+}

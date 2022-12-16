@@ -1,0 +1,112 @@
+@import "https://use.fontawesome.com/releases/v5.5.0/css/all.css";
+
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-weight: 400;
+  width: 100%;
+  height: 100%;
+  font-family: "Poppins", sans-serif;
+}
+
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 600;
+}
+
+
+.displayTable {
+  display: table;
+  width: 100%;
+  height: 100%;
+  background-image: url('https://wallpaper.dog/large/20461297.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.displayTableCell {
+  display: table-cell;
+  vertical-align: middle;
+  width: 100%;
+  height: 100%;
+}
+
+h3 {
+  text-align: center;
+  font-size: 22px;
+  margin: 0 0 20px;
+}
+
+
+
+label {
+  display: block;
+  font-size: 13px;
+  padding-bottom: 5px;
+  font-weight: 600;
+}
+
+.formGroup {
+  margin-bottom: 20px;
+  float: left;
+  width: 100%;
+}
+
+
+
+
+.displayTable .btn {
+  width: 100%;
+  border: none;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 15px 0;
+  background: #f96ea8;
+  color: #ffffff;
+  cursor: pointer;
+  outline: none;
+}
+
+.displayTable .btn:hover {
+  opacity: 0.88;
+}
+
+.displayTable .btnSecondary {
+  background: #eeeeee;
+  color: #404040;
+}
+
+.displayTable .googleBtn {
+  background: #2671fc;
+  border-radius: 8px;
+  box-shadow: 0px 10px 30px 5px rgba(0,0,0,.15);
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+label {
+  display: block;
+  font-size: 13px;
+  padding-bottom: 5px;
+  font-weight: 600;
+}

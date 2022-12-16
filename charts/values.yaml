@@ -1,0 +1,31 @@
+mongodb:
+  mongodbUsername: userCore
+  mongodbPassword: MongoDBPassword
+  mongodbDatabase: queries
+  architecture: replicaset
+  replicaCount: 1
+  pdb.create: true
+
+rabbitmq:
+  pdb.create: true
+  replicaCount: 1
+  auth:
+    erlangCookie: cardgameCore
+    username: userCore
+    password: RabbitMQPassword
+  memoryHighWatermark.enabled: true
+
+mongo_uri: "mongodb://userCore:MongoDBPassword@core-cardgame-mongodb:27017/queries"
+rabbitmq_uri: "amqp://userCore:RabbitMQPassword@core-cardgame-rabbitmq:5672"
+
+command:
+  repository: docker.io/xtsofka/cardgame-command
+  pullPolicy: Always
+
+queries:
+  repository: docker.io/xtsofka/cardgame-queries
+  pullPolicy: Always
+
+
+ingress:
+  host: localhost

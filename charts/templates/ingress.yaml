@@ -1,0 +1,35 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: {{ .Release.Name }}-ingress
+  labels:
+    {{- include "cardgame-core.labels" . | nindent 4 }}
+  annotations:
+    ingress.kubernetes.io/enable-cors: "true"
+    ingress.kubernetes.io/cors-allow-methods: "PUT, GET, POST, OPTIONS"
+    kubernetes.io/ingress.class: alb
+    alb.ingress.kubernetes.io/scheme: internet-facing
+    alb.ingress.kubernetes.io/target-type: ip
+    alb.ingress.kubernetes.io/healthcheck-path: /queries
+    alb.ingress.kubernetes.io/listen-ports: '[{"HTTP": 80}, {"HTTPS": 443}]'
+    alb.ingress.kubernetes.io/ssl-redirect: '443'
+
+spec:
+  rules:
+    - host: {{ .Values.ingress.host }}
+    - http:
+        paths:
+          - path: /commands
+            pathType: Prefix
+            backend:
+              service:
+                name: {{ .Release.Name }}-command
+                port: 
+                  number: 8080
+          - path: /queries
+            pathType: Prefix
+            backend:
+              service:
+                name:  {{ .Release.Name }}-queries
+                port: 
+                  number: 8081

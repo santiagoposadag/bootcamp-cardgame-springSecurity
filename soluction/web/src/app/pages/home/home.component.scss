@@ -1,0 +1,92 @@
+.container {
+  margin: 0 auto;
+  max-width: 800px;
+  background: rgb(228, 228, 228);
+  padding: 30px 40px 10px;
+  text-align: center;
+  border: 2px solid black;
+  border-radius: 5px;
+  box-shadow: 0px 10px 30px 5px rgba(0,0,0,.15);
+}
+
+.mainContainer {
+  margin: 0 auto;
+  max-width: 800px;
+  background: white;
+  padding: 30px 40px 10px;
+  text-align: center;
+  border: 10px solid black;
+  border-radius: 10px;
+
+}
+
+.create-btn {
+  background-color: #2671fc;
+  border: solid 1px #2671fc;
+  color: white;
+  padding: 10px;
+  width: 20vw;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px 10px;
+  border-radius: 8px;
+  box-shadow: 0px 10px 30px 5px rgba(0,0,0,.15);
+}
+
+.create-btn:hover {
+  cursor: pointer;
+  background-color: white;
+  border: solid 1px #2671fc;
+  color: #2671fc;
+  padding: 10px;
+  width: 20vw;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px 10px;
+  border-radius: 8px;
+}
+
+.consult-btn {
+  background-color: #575757;
+  border: solid 1px #575757;
+  color: white;
+  padding: 10px;
+  width: 20vw;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 30px 2px;
+  border-radius: 8px;
+  box-shadow: 0px 10px 30px 5px rgba(0,0,0,.15);
+}
+
+.consult-btn:hover {
+  cursor: pointer;
+  background-color: white;
+  border: solid 1px #575757;
+  color: #575757;
+  padding: 10px;
+  width: 20vw;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 30px 2px;
+  border-radius: 8px;
+}
+
+h2 {
+  margin: auto;
+  position: relative;
+  top: -15px;
+}
+
+h1 {
+  position: relative;
+  top: -15px;
+}
